@@ -1,0 +1,33 @@
+body {
+    font-family: "Yu Gothic Medium","游ゴシック Medium","YuGothic M",YuGothic,"游ゴシック","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Lucida Grande",Verdana,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+#nav {
+    clear: both;
+}
+div.top-logo{
+    margin-top: 0px;
+    width: 500px;
+    float: left;
+}
+div.top-menu {
+    float: right;
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+}
+a.loginmenu {
+    padding: 0 10px;
+    border-left: 1px dashed grey;
+    color: rgba(0, 184, 148,2.0);
+}
+a.loginmenu1 {
+    padding: 0 10px;
+    color: rgba(0, 184, 148,2.0);
+}
+.top-logo img {
+    margin: 0 10px 0 20px;
+
+}
