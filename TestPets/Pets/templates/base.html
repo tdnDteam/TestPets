@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>犬・猫</title>
         <link rel="stylesheet" href="{% static '/css/style.css' %}">
+        {% block head %}{% endblock %}
     </head>
     <body>
         <!--header-->
@@ -20,7 +21,7 @@
                     <a class="loginmenu" href="#">お気に入り</a>
                     <a class="loginmenu" href="#">申し込み・お問い合わせ一覧</a>
                     <a class="loginmenu" href="#">よくある質問</a>
-        </div>
+            </div>
         </div> 
         <!--header-->
         <!--navigation-->
@@ -34,44 +35,12 @@
                         <a href="#">サイトへのお問い合わせ</a>
                 </div>
             </div>
-        
+            {% block header %}{% endblock %}
+            {% block contents %}{% endblock %}
+            
     
     <!--navigation-->
-
-        <!--wrapper-->
-            <div id="wrapper">
-                <div class="page-intro">
-                    <p>Pet House......</p>
-                </div>
-                <div class="wp-menu">
-                    <ul class="wp-mn-left">
-                        <h1>里親になりたい方</h1>
-                        <li><a href="#">募集中のペットを探す</a></li>
-                        <li><a href="#">＞里親応募の流れ</a></li>
-                    </ul>
-                    <ul class="wp-mn-right">
-                        <h1>里親を募集したい方</h1>
-                        <li><a href="#">里親募集者登録を行う</a></li>
-                        <li><a href="#">＞里親を見つけるまでの流れ</a></li>
-                    </ul>
-                </div>
-            </div>
-            
         
-        <!--wrapper-->
-
-        <!--main content-->
-
-
-
-        <!--main content-->
-
-
-
-
-        
-
-
         <!--footer-->
         <footer>
             <div id="footer">
