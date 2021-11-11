@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'TestPets.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'TestPet',
-        'USER': os.environ.get('DB_USER'),
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'NAME': 'testpet',
+        'USER': 'postgres',
+        'PASSWORD': 'c9tyz2000',
         'HOST':'',
         'POST':'',
     }
